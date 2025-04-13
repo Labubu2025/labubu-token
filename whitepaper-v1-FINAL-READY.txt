@@ -1,0 +1,35 @@
+# LABUBU Whitepaper v1.0
+
+## Introduction
+
+LABUBU is a community-powered meme token launched on the Solana blockchain. Built for joy, culture, and virality, LABUBU is designed to capture the attention of Asia, India, and beyond.
+
+## Tokenomics
+
+- Total Supply: 1,000,000,000 LABU
+- 100% Fair Launch
+- 0% Buy/Sell Tax
+- No team allocation
+
+## Roadmap
+
+1. Token launch & Phantom listing  
+2. Community building (Twitter, Telegram)  
+3. CoinGecko & CoinMarketCap submissions  
+4. Airdrop Campaigns  
+5. NFT Utility Development  
+6. Exchange Listings
+
+## Vision
+
+To become a cultural icon through memes, decentralized community governance, and fun.
+
+## Contract
+
+Solana Token Address: 2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi
+
+## Links
+
+- Website: https://Labubu2025.github.io/labubu-token  
+- Twitter: https://twitter.com/labubu_token  
+- Whitepaper (PDF): https://Labubu2025.github.io/labubu-token/whitepaper.pdf
