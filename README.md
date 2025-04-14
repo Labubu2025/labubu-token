@@ -1,37 +1,54 @@
 # LABUBU Token
 
-**LABUBU** is a Solana-based meme token born to capture the hearts of billions across Asia, India, and the world.  
-Built with speed, community, and creativity in mind, LABUBU aims to become the next cultural icon in crypto.
+🐇 Meme madness on Solana | 1B total supply | No minting | 100% community
 
-## 🌟 Key Features
+---
 
-- 🐇 100% community-driven
-- 💛 Launched on the Solana blockchain
-- 🚀 Designed for virality and meme culture
-- 🌍 Focus on Asia & India as key regions
+## 🔹 Project Summary
+LABUBU is a meme-driven community token built on the Solana blockchain. With a total supply of 1 billion tokens, zero minting rights, and 100% of tokens owned by the community, LABUBU aims to be the most iconic and viral meme coin in the SOL ecosystem.
 
-## 📊 Tokenomics
+---
 
-- Total Supply: **1,000,000,000 LABU**
-- No taxes, no pre-sale, no team allocation
-- Transparent, fair launch
+## 🔹 Key Links
+- 🌐 Website: [https://labubu2025.github.io/labubu-token](https://labubu2025.github.io/labubu-token)
+- 🐦 Twitter: [https://x.com/labubu_token](https://x.com/labubu_token)
+- 📣 Telegram: [https://t.me/labubuworldofficial](https://t.me/labubuworldofficial)
+- 📄 Whitepaper: [https://labubu2025.github.io/labubu-token/whitepaper.pdf](https://labubu2025.github.io/labubu-token/whitepaper.pdf)
 
-## 📅 Roadmap
+---
 
-1. Launch & Phantom integration  
-2. CoinGecko & CoinMarketCap submissions  
-3. Twitter + Telegram community  
-4. Airdrop campaigns  
-5. DEX listing (Raydium, Orca)  
-6. Strategic partnerships  
-7. NFT integration & staking
+## 🔹 Token Information
+- **Name:** LABUBU
+- **Symbol:** LABU
+- **Chain:** Solana (SPL Token)
+- **Decimals:** 9
+- **Total Supply:** 1,000,000,000 LABU
+- **Token Address:** `2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi`
 
-## 🖼️ Logo
+---
 
-![LABUBU Logo](./logo.png)
+## 🔹 Features
+- ✅ 100% Community Owned
+- ✅ No Mint Authority (disabled)
+- ✅ Fixed Supply
+- ✅ Live on Jupiter Aggregator
+- ✅ Public, Transparent and Open
 
-## 🔗 Useful Links
+---
 
-- Website: *coming soon*
-- Twitter: *coming soon*
-- Solana Token Address: `2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi`
+## 🔹 How to Buy
+1. Visit [https://jup.ag](https://jup.ag)
+2. Select **SOL** as the input token
+3. Paste the LABU token address as output: `2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi`
+4. Swap and join the movement 🐇
+
+---
+
+## 🔹 Contact
+📬 Email: labubu.labu.token@gmail.com
+
+---
+
+**To the Moon 🚀**
+
+#LABUBU #Solana #Crypto #MemeCoin
