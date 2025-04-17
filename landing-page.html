@@ -1,97 +1,132 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Twitter, Telegram } from "lucide-react";
-import { motion } from "framer-motion";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LABUBU - Solana Meme Coin</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fredoka One', cursive;
+      background: url('background.jpg.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 60px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline;
+      margin-left: 10px;
+      font-size: 2.5em;
+    }
+    section {
+      padding: 60px 20px;
+      background: rgba(0,0,0,0.5);
+      margin: 20px;
+      border-radius: 20px;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .button {
+      background: #FFA500;
+      color: black;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .tokenomics {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .tokenomics div {
+      background: #222;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 15px;
+      min-width: 150px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+    }
+    a {
+      color: #FFA500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LABUBU_logo_final_transparent_200x200.png" alt="LABUBU logo" />
+    <h1>LABUBU</h1>
+  </header>
 
-export default function LabubuHomepage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white font-sans">
-      {/* Hero Section */}
-      <section className="text-center py-20">
-        <motion.img
-          src="/logo.png"
-          alt="LABUBU Logo"
-          className="mx-auto mb-6 w-32 h-32"
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 1 }}
-        />
-        <h1 className="text-4xl font-bold mb-2">LABUBU</h1>
-        <p className="text-lg mb-6">To The Moon 🚀</p>
-        <div className="flex justify-center gap-4">
-          <a href="https://jup.ag/swap?input=SOL&output=2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" target="_blank">
-            <Button>Buy on Jupiter</Button>
-          </a>
-          <a href="https://twitter.com/labubu_token" target="_blank">
-            <Twitter className="w-6 h-6" />
-          </a>
-          <a href="https://t.me/labubuworldofficial" target="_blank">
-            <Telegram className="w-6 h-6" />
-          </a>
-        </div>
-      </section>
+  <section>
+    <h2>🚀 To the Moon with LABUBU!</h2>
+    <p>The Solana-powered meme coin revolution has begun. Join the early community and be legendary.</p>
+    <a href="https://jup.ag/swap?input=SOL&output=2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" class="button">Buy on Jupiter</a>
+  </section>
 
-      {/* About */}
-      <section className="py-12 px-4 max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-semibold mb-4">About LABUBU</h2>
-        <p>
-          LABUBU is a meme revolution built on Solana, created for the community with zero minting after launch and 1 billion total supply. We’re here to bring the most adorable bunny to the moon with NFTs, staking and DAO!
-        </p>
-      </section>
-
-      {/* Tokenomics */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
-        <h2 className="text-2xl font-semibold mb-6 text-center">Tokenomics</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <Card>
-            <CardContent className="text-center p-6">
-              <p className="text-xl font-bold">1B LABU</p>
-              <p>Total Supply</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardContent className="text-center p-6">
-              <p className="text-xl font-bold">100%</p>
-              <p>Community Owned</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardContent className="text-center p-6">
-              <p className="text-xl font-bold">0%</p>
-              <p>Mint Authority</p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Roadmap */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
-        <h2 className="text-2xl font-semibold text-center mb-6">2025 Roadmap</h2>
-        <ul className="space-y-4">
-          <li>✅ Q2: Token launch, liquidity, socials & airdrop</li>
-          <li>🌱 Q3: Influencers, NFTs, 10k+ followers, memes</li>
-          <li>🌍 Q4: CEX listings, staking, charity, partnerships</li>
-        </ul>
-      </section>
-
-      {/* NFT Preview */}
-      <section className="py-12 px-4 text-center">
-        <h2 className="text-2xl font-semibold mb-4">NFT Collection</h2>
-        <p>Coming soon – adorable LABUBU characters!</p>
-      </section>
-
-      {/* Team & Contact */}
-      <section className="py-12 px-4 max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl font-semibold mb-4">Community & Vision</h2>
-        <p>
-          LABUBU is a fully decentralized meme project – no team allocation, no presale. Run by and for the community.
-        </p>
-        <div className="mt-6">
-          <p>📧 labubu.labu.token@gmail.com</p>
-          <p>🐦 @labubu_token</p>
-          <p>💬 t.me/labubuworldofficial</p>
-        </div>
-      </section>
+  <section>
+    <h2>📈 Tokenomics</h2>
+    <div class="tokenomics">
+      <div>
+        <h3>💯</h3>
+        <p>Mint Disabled</p>
+      </div>
+      <div>
+        <h3>1B</h3>
+        <p>Total Supply</p>
+      </div>
+      <div>
+        <h3>50M</h3>
+        <p>Airdrop Active</p>
+      </div>
     </div>
-  );
-}
+  </section>
+
+  <section>
+    <h2>🎁 Join the Airdrop</h2>
+    <p>Don’t miss your chance to claim your share of 50 MILLION LABU tokens!</p>
+    <a href="https://forms.gle/TmxDTYeqDCi5NvLd8" class="button">Claim Now</a>
+  </section>
+
+  <section>
+    <h2>📅 Roadmap</h2>
+    <ul>
+      <li><strong>Q2:</strong> Token launch, liquidity, airdrop</li>
+      <li><strong>Q3:</strong> Influencers, NFTs, memes</li>
+      <li><strong>Q4:</strong> CEX listings, charity</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📢 Community</h2>
+    <p>Follow us and stay updated:</p>
+    <p>
+      <a href="https://t.me/labubuworldofficial">Telegram</a> |
+      <a href="https://x.com/labubu_token">Twitter</a> |
+      <a href="https://labubu2025.github.io/labubu-token/">Website</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LABUBU Token. All rights reserved.</p>
+  </footer>
+</body>
+</html>
