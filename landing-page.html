@@ -3,69 +3,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LABUBU Token - Official</title>
+  <title>LABUBU - Solana Meme Coin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #0b0b0b;
-      color: #fff;
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Fredoka One', cursive;
+      background: url('background.jpg.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
     }
     header {
-      padding: 2rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
     }
-    .highlight {
-      color: #00ffcc;
+    header img {
+      width: 60px;
+      vertical-align: middle;
     }
-    .section {
-      margin: 2rem 0;
+    header h1 {
+      display: inline;
+      margin-left: 10px;
+      font-size: 2.5em;
     }
-    .token-address {
-      background: #1e1e1e;
+    section {
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.5);
+      margin: 20px;
+      border-radius: 20px;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .button {
+      background: #FFA500;
+      color: black;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      text-decoration: none;
       display: inline-block;
-      padding: 1rem;
-      border-radius: 12px;
-      margin-top: 1rem;
-      font-size: 1rem;
-      word-break: break-all;
+      margin-top: 20px;
+    }
+    .tokenomics {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .tokenomics div {
+      background: #222;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 15px;
+      min-width: 150px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
     }
     a {
-      color: #00ffcc;
-      text-decoration: none;
+      color: #FFA500;
     }
-    .listing-status {
-      margin-top: 3rem;
-      padding: 1rem;
-      background: #111;
-      border-radius: 10px;
-      display: inline-block;
+    .token-address, .listing-status {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 30px;
+    }
+    .token-address a {
+      font-size: 1.2em;
+      word-break: break-all;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🐇 <span class="highlight">LABUBU</span> Token</h1>
-    <p>The most viral meme coin on Solana</p>
+    <img src="LABUBU_logo_final_transparent_200x200.png" alt="LABUBU logo" />
+    <h1>LABUBU</h1>
   </header>
 
-  <div class="section">
-    <h2>📬 Token Address</h2>
-    <div class="token-address">
-      <a href="https://solscan.io/token/2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" target="_blank">
-        2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi
-      </a>
-    </div>
-  </div>
+  <section>
+    <h2>🚀 To the Moon with LABUBU!</h2>
+    <p>The Solana-powered meme coin revolution has begun. Join the early community and be legendary.</p>
+    <a href="https://jup.ag/swap?input=SOL&output=2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" class="button">Buy on Jupiter</a>
+  </section>
 
-  <div class="listing-status">
-    <h3>📈 Listing Status</h3>
-    <ul style="list-style: none; padding: 0;">
+  <section>
+    <h2>📈 Tokenomics</h2>
+    <div class="tokenomics">
+      <div>
+        <h3>📏</h3>
+        <p>Mint Disabled</p>
+      </div>
+      <div>
+        <h3>1B</h3>
+        <p>Total Supply</p>
+      </div>
+      <div>
+        <h3>50M</h3>
+        <p>Airdrop Active</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🏱 Join the Airdrop</h2>
+    <p>Don’t miss your chance to claim your share of 50 MILLION LABU tokens!</p>
+    <a href="https://docs.google.com/forms/d/1nCT02jWL_1aOyePJcz2Tff9Bif-f6SsDH_ml3DjnrkE/edit" class="button">Claim Now</a>
+  </section>
+
+  <section>
+    <h2>🗓️ Roadmap</h2>
+    <ul>
+      <li><strong>Q2:</strong> Token launch, liquidity, airdrop</li>
+      <li><strong>Q3:</strong> Influencers, NFTs, memes</li>
+      <li><strong>Q4:</strong> CEX listings, charity</li>
+    </ul>
+  </section>
+
+  <section class="token-address">
+    <h2>📬 Token Address</h2>
+    <a href="https://solscan.io/token/2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" target="_blank">
+      2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi
+    </a>
+  </section>
+
+  <section class="listing-status">
+    <h2>📊 Listing Status</h2>
+    <ul>
       <li>✅ Applied to: MEXC, BitMart, Coinstore, Gate.io</li>
       <li>🔎 Under review by CoinGecko & CoinMarketCap</li>
-      <li>📊 Trackable on <a href="https://www.geckoterminal.com/solana/pools/HYnCMEXCxfmjMBtQmeXPWGxaD4VaZponBMfq4TFx6Kki" target="_blank">GeckoTerminal</a></li>
+      <li>📈 Trackable on <a href="https://www.geckoterminal.com/solana/pools/HYnCMEXCxfmjMBtQmeXPWGxaD4VaZponBMfq4TFx6Kki" target="_blank">GeckoTerminal</a></li>
     </ul>
-  </div>
+  </section>
+
+  <section>
+    <h2>📢 Community</h2>
+    <p>Follow us and stay updated:</p>
+    <p>
+      <a href="https://t.me/labubuworldofficial">Telegram</a> |
+      <a href="https://x.com/labubu_token">Twitter</a> |
+      <a href="https://labubu2025.github.io/labubu-token/">Website</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LABUBU Token. All rights reserved.</p>
+  </footer>
 </body>
 </html>
