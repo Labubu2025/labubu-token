@@ -62,15 +62,7 @@
       min-width: 150px;
       text-align: center;
     }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.6);
-    }
-    a {
-      color: #FFA500;
-    }
-    .token-address, .listing-status {
+    .token-address, .listing-status, .widgets {
       background: rgba(255,255,255,0.1);
       padding: 20px;
       border-radius: 12px;
@@ -79,6 +71,22 @@
     .token-address a {
       font-size: 1.2em;
       word-break: break-all;
+      color: #FFA500;
+    }
+    iframe {
+      border: none;
+      border-radius: 12px;
+      width: 100%;
+      height: 420px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    a {
+      color: #FFA500;
     }
   </style>
 </head>
@@ -86,6 +94,12 @@
   <header>
     <img src="LABUBU_logo_final_transparent_200x200.png" alt="LABUBU logo" />
     <h1>LABUBU</h1>
+    <div class="token-address">
+      <h2>📬 Token Address</h2>
+      <a href="https://solscan.io/token/2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" target="_blank">
+        2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi
+      </a>
+    </div>
   </header>
 
   <section>
@@ -127,13 +141,6 @@
     </ul>
   </section>
 
-  <section class="token-address">
-    <h2>📬 Token Address</h2>
-    <a href="https://solscan.io/token/2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi" target="_blank">
-      2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi
-    </a>
-  </section>
-
   <section class="listing-status">
     <h2>📊 Listing Status</h2>
     <ul>
@@ -141,6 +148,14 @@
       <li>🔎 Under review by CoinGecko & CoinMarketCap</li>
       <li>📈 Trackable on <a href="https://www.geckoterminal.com/solana/pools/HYnCMEXCxfmjMBtQmeXPWGxaD4VaZponBMfq4TFx6Kki" target="_blank">GeckoTerminal</a></li>
     </ul>
+  </section>
+
+  <section class="widgets">
+    <h2>📊 Live Price & Chart</h2>
+    <iframe src="https://www.geckoterminal.com/solana/pools/HYnCMEXCxfmjMBtQmeXPWGxaD4VaZponBMfq4TFx6Kki?embed=1"></iframe>
+
+    <h2>💰 Swap Widget</h2>
+    <iframe src="https://jup.ag/swap/2ygXYFRC82ZjoEEWt5rfEHPVfEdKxWb747GjQSHgVzxi"></iframe>
   </section>
 
   <section>
